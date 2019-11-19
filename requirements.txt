@@ -32,7 +32,7 @@ mistune==0.8.4            # via nbconvert
 nbconvert==5.6.1          # via jupyter, notebook
 nbdime==1.1.0
 nbformat==4.4.0           # via ipywidgets, nbconvert, nbdime, notebook
-notebook==6.0.2           # via jupyter, nbdime, widgetsnbextension
+notebook==6.0.2           # via jupyter, nbdime, rise, widgetsnbextension
 pandocfilters==1.4.2      # via nbconvert
 parso==0.5.1              # via jedi
 pexpect==4.7.0            # via ipython
@@ -46,6 +46,7 @@ python-dateutil==2.8.1    # via jupyter-client
 pyzmq==18.1.1             # via jupyter-client, notebook
 qtconsole==4.6.0          # via jupyter
 requests==2.22.0
+rise==5.6.0
 send2trash==1.5.0         # via notebook
 six==1.13.0               # via bleach, jsonschema, nbdime, prompt-toolkit, pyrsistent, python-dateutil, traitlets
 smmap2==2.0.5             # via gitdb2
